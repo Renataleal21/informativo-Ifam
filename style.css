@@ -1,0 +1,34 @@
+/*config global*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*estilo cabeçalho*/
+/*background-color: aqua;*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.527)2px 0px 10px;
+   
+}
+header h1{
+text-align: left;
+
+}
+header img{
+    padding: 10px;
+    width: 40px;
+    
+}
+header ul li{
+    width: 150px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+}
+header ul li:hover{
+    color: blanchedalmond;
+    font-weight: bold;
+}
