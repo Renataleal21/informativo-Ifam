@@ -1,34 +1,93 @@
 /*config global*/
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
 /*estilo cabeçalho*/
 /*background-color: aqua;*/
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: rgba(0,0,0,0.527)2px 0px 10px;
-   
-}
-header h1{
-text-align: left;
+    box-shadow: rgba(9, 10, 9, 0.445)2px 0px 10px;
 
 }
-header img{
-    padding: 10px;
-    width: 40px;
-    
+
+header h1 {
+    text-align: left;
+
 }
-header ul li{
-    width: 150px;
+
+header img {
+    padding: 30px;
+    width: 50px;
+
+}
+
+header ul li {
+    width: 250px;
     padding: 5px;
     display: inline-block;
     text-align: center;
 }
-header ul li:hover{
-    color: blanchedalmond;
+
+header ul li a:hover {
+    color: rgb(12, 168, 53);
     font-weight: bold;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black
+}
+
+/*Banner */
+.banner {
+    position: relative;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.banner-image {
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+    /* redimensiona a imagem ao tamanho do container*/
+    border: solid white 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+}
+
+.search-container {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.search-container h1 {
+    color: white;
+    text-shadow: black (0, 0, 0, 0.4) 5px 5px 2px;
+    font-size: 3.0em;
+    text-align: center;
+}
+
+main {
+    width: 950px;
+    margin: auto;
+}
+
+main h2,
+p {
+    margin-bottom: 100px;
+}
+
+main p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+section {
+    height: 100vh;
 }
